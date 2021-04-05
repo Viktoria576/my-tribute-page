@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+  padding: 5px;
+}
+.container {
+  width: 85%;
+  margin: 30px auto;
+  background: #f5f7f8;
+  border-radius: 3px;
+  padding: 30px 0;
+}
+.header {
+    margin: 0 3%;
+}
+h2 {
+  font-size: 55px;
+  font-weight: bold;
+  color: rgb(120, 122, 124);
+  font-style: italic;
+  text-align: center;
+  letter-spacing: 0em;
+  padding-top: 25px;
+  margin-bottom: 10px;
+}
+.quote {
+    border-right: 3px solid rgb(206, 202, 202);
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    justify-content: center;
+}
+.quote-text {
+    text-align: right;
+}
+p {
+  color: rgb(108, 110, 112);
+
+}
+.content-wrapper {
+  width: 77%;
+  margin: 0 auto;
+  border: 1px solid rgb(231, 228, 228);
+  padding: 0.6%;
+  background-color: white;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+img {
+  border-radius: 3px 3px 0 0;
+  width: 60%;
+  height: 100%;
+}
+.content-text {
+  text-align: justify;
+  margin: 15px;
+  line-height: 1.5em;
+}
+.subtitle {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.subtitle-heading {
+  background-color: rgb(31, 28, 28);
+  padding: 5px;
+  font-size: 40px;
+  border-radius: 4px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+.list {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.5em;
+}
+.ordered-list {
+  margin: 20px 0;
+}
+.company-laura-ul {
+  margin: 10px 0;
+  list-style-type: disc;
+}
+.signature {
+  display: flex;
+  align-items: center;
+}
+.signature img {
+  width: 60px;
+  height: 60px;
+}
+.footer {
+  padding: 0 100px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(43, 39, 39);
+}
+a {
+  text-decoration: none;
+  color: rgb(9, 82, 165);
+}
+a:hover {
+  color: rgb(62, 137, 202);
+  text-decoration: underline;
+}
+
+hr {
+  border: solid 1px rgb(241, 237, 237);
+  width: 85%;
+  margin: 0 auto;
+}
+.copyright {
+  font-size: 13px;
+  text-align: center;
+  margin: 20px 0;
+  
+}
